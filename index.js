@@ -12,6 +12,14 @@ app.set('views',__dirname + '/views')
 
 app.get('/', (req, res) => {
 
+  /*res.writeHead(200,{'Content-type':'text-html'});*/
+
+res.render('index')
+
+})
+
+app.get('/index', (req, res) => {
+
     /*res.writeHead(200,{'Content-type':'text-html'});*/
 
   res.render('index')

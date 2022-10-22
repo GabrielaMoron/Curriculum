@@ -969,9 +969,16 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052D", en
 .counter-box {
   color: #fff;
   text-align: center;
+  display: contents;
+
 }
 
 @media (min-width: 577px) {
+  .counter-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
   .counter-box {
     margin-bottom: -6.2rem;
     margin-top: -5rem;
@@ -991,7 +998,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052D", en
 
 .counter-num .counter {
   font-size: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 9px;
 }
 
 /*--------------------------------------------------------------
@@ -1352,7 +1359,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052D", en
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+  
 }
 
 /*--------------------------------------------------------------
