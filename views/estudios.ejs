@@ -21,7 +21,7 @@
   <link href="/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="style2.css" rel="stylesheet">
+  <link href="/style2.css" rel="stylesheet">
 
 </head>
 
@@ -29,25 +29,7 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html"></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="public/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="/index">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="/perfil">Perfil</a></li>
-          <li><a class="nav-link scrollto" href="/habilidades">Habilidades</a></li>
-          <li><a class="nav-link scrollto active " href="/estudios">Estudios</a></li>
-          <li><a class="nav-link scrollto " href="/referencias">Referencias</a></li>
-    
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+    <%- include('../template/nav'); %>
   </header><!-- End Header -->
  <!-- ======= Counter Section ======= -->
  <div id="estudio" class="section-counter paralax-mf bg-image" >
@@ -100,75 +82,81 @@
    <section id="blog" class="blog-mf sect-pt4 route">
     <div class="epref">
     <div class="container">
-    
+      <div class="container position-relative">
       <div class="referenc">
-      <div class="row">
-        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-4">
           <div class="card card-blog">
-            <div class="card-img">
-
+            
+               <div class="card-body">
+                 <div class="card-category-box">
+                   <div class="card-category">
+                     <h6 class="category">TECNICO</h6>
+                   </div>
+                 </div>
+                 <h3 class="card-title"><a href="">SENA</a></h3>
+                 <p class="card-description">
+                   Graduada del tecnico formativo del sena, 
+                   como enfasis seleccionado en el colegio con proyecto academico, con 
+                   el conocimiento en analisar los requisitos del cliente para construir el sistema de informacion,
+                   comprender textos en ingles en forma escrita y auditiva,
+                   construir y refuerzon en las habilidades blandas.
+                 </p>
+               </div>
+           </div>
             </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Referencia Personal</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="">Cristina Beltran</a></h3>
-              <p class="card-description">
-                Es una persona que encuentra una buena perspectiva frente a cualquier situación de manera activa,es bastante perseverante, prudente  y capaz de recibir retos
-                  y emplearlos de forma positiva para hallar una solución.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">3212978124</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="bi bi-telephone-outbound"></span> telefono
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-6">
+          
+            <div class="col-md-4">
           <div class="card card-blog">
-            <div class="card-img">
-             
+            
+               <div class="card-body">
+                 <div class="card-category-box">
+                   <div class="card-category">
+                     <h6 class="category">TECNNOLOGO</h6>
+                   </div>
+                 </div>
+                 <h3 class="card-title"><a href="">SENA</a></h3>
+                 <p class="card-description">
+                  Estudiante del tecnologo de Analisis y Desarrollo 
+                  de Sistemas Informaticos, con proyecto formativo individual, 
+                  asignaturas orientadas a el FronEnd, BackEnd, 
+                  Analisis de Documentos y Bases de Datos.
+                 </p>
+               </div>
+           </div>
             </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Referencia Familiar</h6>
+          
+  <div class="col-md-4">
+              <div class="card card-blog">
+                <div class="card-img">
+                
                 </div>
-              </div>
-              <h3 class="card-title"><a href="">Jacqueline Sanchez</a></h3>
-              <p class="card-description">
-              Se le considera como una persona cuidadosa, calmada, honesta, siempre ha sido aplicada 
-              en su mayoria es una persona empatica, considerablemete abierta frente a las relaciónes con las demas personas.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">3125456162</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="bi bi-telephone-outbound"></span>telefono
-              </div>
-            </div>
+                <div class="card-body">
+                  <div class="card-category-box">
+                    <div class="card-category">
+                      <h6 class="category">BACHILLER</h6>
+                    </div>
+                  </div>
+                  <h3 class="card-title"><a href="">Alberto Lleras Camargo</a></h3>
+                  <p class="card-description">
+                    Graduada del colegio Alberto Lleras Camargo en el 2021, fue uno de mis grandes logros ya que apesar de no salir con un reconocimiento,
+                    a lo largo del ultimo año de escula estuve un gran dendimiento academico, recibiendo elogios por parte de las personas academicas (docentes, orientadores y coordinadores),
+                    por supuesto tambien por parte de mi familia, a los que siempre estuvieron para mi.
+                  </p>
+                </div></div>
+              
+         
           </div>
         </div>
       </div>
-    </div>
-    </div>
+  
+ </div>
   </div>
+    </div>
   </section><!-- End Blog Section -->
-   <script src="main.js"></script>  </body>
+  <footer>
+    <%- include('../template/footer'); %>
+  </footer><!-- End  Footer -->
+   <script src="/main.js"></script>  </body>
 
  
