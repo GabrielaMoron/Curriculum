@@ -1429,7 +1429,7 @@ height: 15rem;
 
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -1441,7 +1441,7 @@ height: 15rem;
 
 @media (min-width: 768px) {
   .hero .hero-subtitle {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 
@@ -2374,7 +2374,7 @@ footer .credits a {
   }
   .hero .hero-subtitle {
    color: #ffffff;
-   font-size: 5rem;
+ 
    font-family: 'Roboto Mono', monospace;
   }
   
@@ -2392,7 +2392,7 @@ footer .credits a {
   
   @media (min-width: 768px) {
     .hero .hero-subtitle {
-      font-size: 2.5rem;
+      font-size: 7rem;
     }
   }
   
@@ -2415,7 +2415,7 @@ footer .credits a {
   
   @media (min-width: 768px) {
     .hero-single .hero-title {
-      font-size: 3.5rem;
+      font-size: 2.5rem;
     }
   }
   
