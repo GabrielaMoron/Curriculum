@@ -7,7 +7,7 @@ app.use( express.static(__dirname + '/public'));
 app.set('view engine','ejs')
 app.set('views',__dirname + '/views')
 
-app.use('/ap',require('./routes/route'))
+app.use('/',require('./routes/route'))
 
 /*
 app.get('/clientes', (req, res) => {
