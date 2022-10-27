@@ -6,6 +6,8 @@
    margin: 0 auto;
    overflow: hidden;
 }
+
+
 @media (min-width: 420px) {
     img{
         width: 90rem;
